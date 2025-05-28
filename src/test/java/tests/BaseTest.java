@@ -26,10 +26,10 @@ public class BaseTest {
         projectsPage = new ProjectsPage();
     }
 
-    /*@AfterMethod
+    @AfterMethod
     public void closeWindow() {
         Selenide.closeWebDriver();
         Selenide.clearBrowserCookies();
 
-    }*/
+    }
 }
